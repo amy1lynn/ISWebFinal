@@ -1,0 +1,96 @@
+body{
+    background-color:rgb(169, 218, 176);
+    color:rgb(0, 0, 0);
+}
+
+h1, h2, h3, h4, h5, h6{
+ color:rgb(0, 0, 0);
+
+ font-weight: bold;
+}
+
+h2{
+    color:black;
+}
+
+    .navbar {
+        background-color: rgb(46, 54, 57);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 65px;
+        width: 100%; /* Ensures the navbar covers the full width of the page */
+        /*position: fixed; /* Keeps it fixed at the top */
+        top: 0; /* Keeps it at the top of the page */
+        left: 0; /* Aligns it to the left edge of the viewport */
+        border: 5px solid white;
+    }
+
+.navbar a {
+    float:left;
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    padding:10px 10px;
+    font-size: medium;
+}
+
+
+
+.box-model{
+    padding: 5px;
+    background-color: rgb(46, 54, 57);
+    border: 5px solid rgb(255, 255, 255);
+    margin: 25px;
+    text-align: center;
+    width: 400px;
+    color:#fdfdfd;
+}
+
+a {
+    color:aqua;
+}
+
+.sidebar{
+    background-color:rgb(46, 54, 57);
+    width: 150px;
+    height: 15%;
+    position:fixed;
+    top: 100px;
+    left: 0;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    border: 5px solid white
+}
+
+.sidebar ul{
+    list-style:none;
+    padding:0;
+}
+
+.sidebar ul li{
+    margin: 15px 0;
+}
+
+.sidebar ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover{
+    text-decoration: underline;
+}
+
+.maincontent{
+    margin-left: 220px;
+    padding: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+
+
+/* syntax:
+text-align= center;
+font-weight= bold
+font-style: italic
+text-decoration: underline
+font-family: serif */
